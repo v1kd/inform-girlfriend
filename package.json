@@ -1,0 +1,11 @@
+{
+  "name": "inform-girlfriend",
+  "version": "1.0.0",
+  "description": "Inform girlfriend",
+  "main": "index.js",
+  "author": "vickydoosa",
+  "license": "MIT",
+  "dependencies": {
+    "wifi-name": "^3.1.1"
+  }
+}
