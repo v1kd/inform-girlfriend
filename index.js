@@ -6,7 +6,7 @@ const randomTextMsg = config.random_text_messages[
 ]
 
 wifiName()
-  .then(name => config.comapany_wifi_names.includes(name))
+  .then(name => config.company_wifi_names.includes(name))
   .then(isAtWork => isAtWork ? 
     shell.exec(`./message.js "${randomTextMsg}" "${config.girl_friend_contact_numbers[0]}"`) :
     null
